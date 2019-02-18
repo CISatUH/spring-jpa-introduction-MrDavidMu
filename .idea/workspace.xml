@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40801aaa-392f-4848-9fa0-eeda797f8c44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/spring-jpa-introduction-MrDavidMu.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/ManagerEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V20190218103913__create_manager_table.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a6730a0d-742e-4a92-82b4-97c4297a8af0/storage_v2/_src_/database/jpa-intro.-oXbNA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a6730a0d-742e-4a92-82b4-97c4297a8af0/storage_v2/_src_/database/jpa-intro.-oXbNA/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b457d2ff-47b4-443d-a808-b11409aaef03/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b457d2ff-47b4-443d-a808-b11409aaef03/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bbe5373a-051e-4b34-976e-e50c097bf3d6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/bbe5373a-051e-4b34-976e-e50c097bf3d6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/main/ManagerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/spring-jpa-introduction-MrDavidMu.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/FirstApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/FirstApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/ManagerEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/PersonRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/PersonRepository.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -81,8 +76,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/main/FirstApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="25" column="13" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="41" />
+            <state relative-caret-position="544">
+              <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#434#435#0" expanded="true" />
@@ -110,7 +105,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/main/Person.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
@@ -119,11 +114,33 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/main/Manager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="449">
+              <caret line="69" column="4" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="4" />
+              <folding>
+                <element signature="e#1708#1709#0" expanded="true" />
+                <element signature="e#1755#1756#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/main/PersonRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="85">
+              <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="10" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/main/ManagerRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="76" selection-start-line="4" selection-start-column="76" selection-end-line="4" selection-end-column="76" />
             </state>
           </provider>
         </entry>
@@ -134,6 +151,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -147,6 +165,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -162,10 +183,12 @@
         <option value="$PROJECT_DIR$/src/main/java/main/Person.java" />
         <option value="$PROJECT_DIR$/src/main/resources/db/migration/V2019__create_dog.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/db/migration/V20190213090121__add_the_cat_table.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/main/FirstApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/main/PersonRepository.java" />
         <option value="$PROJECT_DIR$/src/main/resources/db/migration/V20190214183751__create_a_dog_table.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/db/migration/V20190218103913__create_manager_table.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/main/PersonRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/main/FirstApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/main/ManagerRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/main/Manager.java" />
       </list>
     </option>
   </component>
@@ -473,14 +496,14 @@
     <property name="SearchEverywhereHistoryKey" value="persis&#9;ACTION&#9;ActivatePersistenceToolWindow&#10;persista&#9;PSI&#9;JAVA://org.springframework.data.domain.Persistable" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550508138831" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550509695221" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15332031" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
@@ -601,20 +624,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="spring-jpa-introduction-MrDavidMu" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="main.FirstApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FirstApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="jpa-intro" />
       <extension name="coverage">
@@ -624,6 +633,20 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="main.FirstApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-jpa-introduction-MrDavidMu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="main.FirstApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -675,7 +698,7 @@
       <workItem from="1550109863526" duration="1000" />
       <workItem from="1550185467835" duration="2015000" />
       <workItem from="1550507562946" duration="315000" />
-      <workItem from="1550507905270" duration="337000" />
+      <workItem from="1550507905270" duration="1789000" />
     </task>
     <task id="LOCAL-00001" summary="added the dog class">
       <created>1550008324405</created>
@@ -684,11 +707,18 @@
       <option name="project" value="LOCAL" />
       <updated>1550008324405</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="completed step 1">
+      <created>1550508283202</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1550508283202</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16288000" />
+    <option name="totallyTimeSpent" value="17740000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -702,10 +732,10 @@
       <window_info id="DB Browser" order="5" />
       <window_info id="Image Layers" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info active="true" id="Persistence" order="8" sideWeight="0.43085882" side_tool="true" visible="true" weight="0.21695095" />
+      <window_info id="Persistence" order="8" sideWeight="0.43085882" side_tool="true" weight="0.21695095" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978425" visible="true" weight="0.25568798" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4978425" visible="true" weight="0.25568798" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997986" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -743,7 +773,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added the dog class" />
-    <option name="LAST_COMMIT_MESSAGE" value="added the dog class" />
+    <MESSAGE value="completed step 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed step 1" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -829,10 +860,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/ManagerRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="76" selection-start-line="4" selection-start-column="76" selection-end-line="4" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/main/FirstApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="41" />
+        <state relative-caret-position="544">
+          <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#434#435#0" expanded="true" />
@@ -848,6 +886,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V20190218103913__create_manager_table.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -857,15 +902,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/main/PersonRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="85">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="10" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/main/Person.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/Manager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        <state relative-caret-position="449">
+          <caret line="69" column="4" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="4" />
+          <folding>
+            <element signature="e#1708#1709#0" expanded="true" />
+            <element signature="e#1755#1756#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -910,7 +959,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>11</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -922,12 +971,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>jpa-demo</last-edited>
+          <last-edited>JPA|spring-jpa-introduction-MrDavidMu</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

@@ -8,6 +8,4 @@ public interface PersonRepository extends CrudRepository<Person, Integer> {
     Person findFirstByName(String name);
 
 
-
-
 }

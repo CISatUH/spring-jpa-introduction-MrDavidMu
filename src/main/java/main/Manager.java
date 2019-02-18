@@ -5,7 +5,7 @@ import java.util.Objects;
 
 @Entity
 @Table(name = "MANAGER", schema = "PUBLIC", catalog = "MYDB")
-public class ManagerEntity {
+public class Manager {
     private int id;
     private String firstName;
     private String lastName;
@@ -55,7 +55,7 @@ public class ManagerEntity {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        ManagerEntity that = (ManagerEntity) o;
+        Manager that = (Manager) o;
         return id == that.id &&
                 Objects.equals(firstName, that.firstName) &&
                 Objects.equals(lastName, that.lastName) &&
@@ -65,5 +65,10 @@ public class ManagerEntity {
     @Override
     public int hashCode() {
         return Objects.hash(id, firstName, lastName, department);
+    }
+
+    @Override
+    public String toString() {
+        return ("Manager: " + lastName);
     }
 }
