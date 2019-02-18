@@ -11,6 +11,8 @@ public class FirstApplication implements CommandLineRunner {
 
     @Autowired
     PersonRepository personRepository;
+
+    @Autowired
     ManagerRepository managerRepository;
 
     public static void main(String[] args) {
