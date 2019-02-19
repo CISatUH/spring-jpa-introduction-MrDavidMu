@@ -69,6 +69,6 @@ public class Manager {
 
     @Override
     public String toString() {
-        return ("Manager: " + lastName);
+        return ("Manager: " + firstName + " " + lastName);
     }
 }

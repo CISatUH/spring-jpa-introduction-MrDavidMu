@@ -26,6 +26,7 @@ public class FirstApplication implements CommandLineRunner {
         personRepository.save(person);
 
         Manager manager = new Manager();
+        manager.setFirstName("David");
         manager.setLastName("Mu");
         managerRepository.save(manager);
 
